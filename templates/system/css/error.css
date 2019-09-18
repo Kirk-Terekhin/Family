@@ -1,0 +1,81 @@
+/**
+ * @copyright	Copyright (C) 2005 - 2014 Open Source Matters, Inc. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+/* Start Common Styles */
+* {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 16px;
+	color: #000000;
+}
+
+html {
+	height: 100%;
+	margin-bottom: 1px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	margin-bottom: 1px;
+	background: url(../../family.com.kg/images/bg.jpg) center center;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: normal;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.error {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, td, th, div, pre, blockquote, ul, ol, dl, address,.componentheading,.contentheading,.contentpagetitle,.sectiontableheader,.newsfeedheading {
+	font-family: helvetica, arial, sans-serif;
+	font-weight: normal;
+}
+
+#outline {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#errorboxoutline {
+	width: 900px;
+	margin: 0px;
+	padding: 0px;
+}
+#errorboxheader {
+    text-align: center;
+    background-color: #008B4F;
+    color: #fff;
+    padding: 15px 10px 10px;
+    margin: 0px auto;
+    box-shadow: inset 0px 3px 0px #FED400;
+    text-shadow: 1px 2px 0px #000;
+    border: none;
+    font-size: 20px;
+}
+#errorboxbody {
+	margin: 0px;
+	padding: 10px;
+	text-align: left;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    box-shadow: inset 1px 0px 0px rgba(0, 0, 0, 0.5),inset -1px 0px 0px rgba(0, 0, 0, 0.5),inset 0px -1px 0px rgba(0, 0, 0, 0.5);
+}
+#techinfo {
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+	border: 1px solid #a5a5a5;
+	color: #000;
+}
+#techinfo p {
+	color: #000;
+}

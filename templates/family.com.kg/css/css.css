@@ -1,0 +1,354 @@
+header {
+    background: url(../images/headerBG.jpg) center top no-repeat;
+    background-size: cover;
+    padding: 10px 0px;
+}
+body {
+    background: url(../images/bg.jpg) center center no-repeat fixed;
+    font-size: 15px;
+	background-size: cover;
+}
+section .container {
+	background: url(../images/old_map_@2X.png) center top; 
+	padding-bottom: 10px;
+}
+.contentik a,
+.contentik a:hover,
+.contentik a:focus,
+header a,
+header a:hover,
+header a:focus {
+    color: #009EE7;;
+    text-decoration: none;
+}
+header h1 {
+    margin-top: 10px;
+} 
+header,footer,
+.item-title,.rg-detail-item-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Philosopher', sans-serif !important;
+}
+.logo a,
+.logo a:hover,
+.logo a:focus {
+    color: inherit;
+}
+.menu > li > ul li,
+nav {
+    background-color: #008B4F;
+}
+
+nav li {
+    display: inline-block;
+}
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 17px 10px;
+    display: block;
+    transition: .2s linear 0s;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 0px #000;
+}
+nav li a:focus,
+nav li a:hover {
+    text-decoration: none;
+    color: #FED400;
+}
+nav .menu > li.active > a {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 3px 0px #FED400;
+}
+nav ul {
+    padding-left: 0px !important;
+    margin: 0px !important;
+}
+.menu > li {
+	position: relative;
+}
+.menu > li > ul > li {
+	display: block;
+    width: 100%;
+}
+.menu > li > ul > li a {
+    padding: 5px 10px;
+}
+.menu > li > ul {
+	position: absolute;
+	display: none;
+	z-index: 999999;
+    left: 0px;right: 0px;
+    padding: 2px 0px;
+    background-color: #FED400;
+}
+.menu > li > ul li:focus, 
+.menu > li > ul li:hover, 
+.menu > li:focus > ul,
+.menu > li:hover > ul {
+	display: inline-block;
+}
+.rightCol,
+.contentik {
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+footer .container,
+section .container {
+	box-shadow: 5px 0px 3px -3px rgba(0, 0, 0, 6),-5px 0px 3px -3px rgba(0, 0, 0, 6);
+}
+.slider .container{
+	margin-bottom: -10px;
+}
+ul.sigFreeClassic li.sigFreeThumb {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #7D7D7D;
+}
+
+img {
+    max-width: 100%;
+}
+.camera_prev,
+.camera_commands,
+.camera_next {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.camera_caption > div {
+    border-radius: 0px !important;
+}
+span.weather_sp1_list_day {width: 50%;overflow: hidden;}
+span.weather_sp1_list_temp{width: 30%;font-size: 13px;}
+span.weather_sp1_list_icon {width: 19%;}
+.weather_sp1_cleft {
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-right: -15px;
+}
+.weather_sp1_cleft img {
+    height: auto;
+}
+.weather_sp1_cright {
+    display: inline-block;
+    width: 58%;
+    margin: 0px;
+    float: left;
+}
+.weather_sp1_city {
+    font-size: 19px !important;
+}
+.navbar-collapse {
+    padding: 0px;
+}
+.navbar-toggle {
+    border: 1px solid #FED400;
+}
+.icon-bar {
+    background-color: #FED400;
+}
+.latestnews {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.latestnews a {
+    color: #333;
+}
+.newsflash {
+    padding: 10px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1;
+}
+.newsflash  img {
+    margin: 10px auto !important;
+}
+.newsflash-title {
+    margin-top: 20px;
+}
+.newsflash-title:first-child {
+    margin-top: 10px;
+}
+.newsflash .readmore {
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+#jc h4,
+.moduletable h3 {
+    text-align: center;
+    background-color: #008B4F;
+    color: #fff;
+    padding: 15px 10px 10px;
+    margin: 0px auto;
+    box-shadow: inset 0px 3px 0px #FED400;
+    text-shadow: 1px 2px 0px #000;
+    border: none;
+}
+#jc h4 {
+	display: inline-block;
+}
+.btn-default:focus,
+.btn-default,
+.rsform-submit-button, .rsform-button {
+    background: #1B9544 url("../images/btn-bg.gif") repeat-x;
+    border: 1px solid #9FD1C6;
+    color: #FEFEFE;
+    cursor: pointer;
+	border-radius: 0px;
+    padding: 10px 15px;
+}
+#comments-form-buttons a, #comments-form-buttons a:hover, #comments-form-buttons a:focus {
+	color: #fff !important;
+	font-weight: bold !important;
+	font-family: sans-serif;
+}
+.weather_sp1,
+.rightCol .custom {
+    padding: 10px;
+}
+.contentik .moduletable,
+.rightCol .moduletable {
+    background-color: rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    box-shadow: inset 1px 0px 0px rgba(0, 0, 0, 0.5),inset -1px 0px 0px rgba(0, 0, 0, 0.5),inset 0px -1px 0px rgba(0, 0, 0, 0.5);
+}
+.item-page {
+	padding-bottom: 20px;
+}
+.item-page h1,
+.item-page h2,
+.item-page h3,
+.item-page h4,
+.item-page h5,
+.item-page h6 {
+    text-align: center;
+}
+
+footer .container {
+    background-color: #333;
+    padding: 15px 10px;
+    color: #fff;
+	margin-top: -10px;
+}
+#jc {
+    padding-top: 40px;
+}
+#jc #comments .comments-list {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#jc h4 a.refresh {display: none;}
+#jc .comment-anchor,
+#jc .comment-author,
+#jc .comment-date {
+    margin: 3px 5px;
+}
+#jc .comment-body {
+    padding: 10px 0px;
+}
+#jc #comments-form {
+    padding-top: 20px;
+}
+#jc #comments-form .col-xs-12 label,
+#jc #comments-form .col-sm-6 label {
+    display: block;
+}
+#jc #comments-form .col-xs-12,
+#jc #comments-form .col-sm-6 {
+    padding-bottom: 8px;
+}
+#jc #addcomments,
+#jc #comments-list-footer a.refresh,
+#jc .comments-buttons a {
+    color: #777;
+}
+#jc .rbox {
+    border-radius: 0px;
+}
+#jc #comments-form-message {
+    margin-right: 0px;
+}
+
+#jc #comments-form textarea,
+#jc #comments-form input {
+    padding: 5px 10px !important;
+    height: auto;
+    width: 100%;
+    max-width: 100% !important;
+	box-shadow: inset 0px 1px 5px #e7e7e7;
+	background: #fff;
+}
+.rsform-input-box, .rsform-text-box, .rsform-password-box, .rsform-calendar-box, .rsform-captcha-box, .rsform-select-box {
+	box-shadow: inset 0px 1px 5px #e7e7e7;
+	background: #fff;
+}
+#jc #comments-form textarea:focus,
+#jc #comments-form input:focus {
+    background-color: #fff !important;
+}
+#jc #comments-form input[type='checkbox'] {
+    width: auto;
+}
+#jc #comments blockquote, #comments .hidden {
+    border-style: dotted;
+    border-color: #b72222;
+}
+#comments blockquote, #comments .hidden, #comments code, #comments pre {
+    color: #5F5F5F;
+}
+.rsform-block-text br,
+.rsform-block-submit br,
+.formField br:last-child,
+.componentheading,
+#jc #comments-footer > a,
+#jc .grippie {
+    display: none;
+}
+#jc #nav-top span,#jc #nav-bottom span {
+    height: auto;
+}
+#jc #comments-form-buttons a:focus,
+#jc #comments-form-buttons a:hover {
+    color: #777;
+}
+#comments-form-buttons a,
+#comments-form-buttons a:hover,
+#comments-form-buttons a:focus {color: #777;}
+#comments-form p, #comments-form #comments-form-buttons, #comments-form #comments-form-error, #comments-form #comments-form-captcha-holder {margin-left: 0px !important;}iframe {
+    border: none;
+}
+.rsform {
+	padding: 10px;
+}
+.formField {
+	font-weight: bold;
+	color: #777;
+	padding-top: 5px;
+}
+.rsform-calendar-box {
+	width: auto !important;
+}
+.formField:hover {
+	background-color: transparent;
+}
+select,
+.rsform-input-box,
+.formField textarea {
+	width: 100%;
+	max-width: 100%;
+}
+.rsform-block-text,
+.rsform-block-submit {
+	padding-top: 15px;
+}
+@media (min-width:1200px){.container{width:1070px}}
